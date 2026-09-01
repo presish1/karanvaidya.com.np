@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home8/vetracom/karanvaidya.com.np/
+    - /bin/cp -R ./* $DEPLOYPATH
